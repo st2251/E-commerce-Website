@@ -87,7 +87,7 @@
     <!-- Login -->
     <div class="container">
       <div class="login-form">
-        <form action="">
+        <form action="signup.php" method="post">
           <h1>Sign Up</h1>
           <p>
             Please fill in this form to create an account. or
@@ -95,13 +95,13 @@
           </p>
 
           <label for="email">Email</label>
-          <input type="text" placeholder="Enter Email" name="email" required />
+          <input type="text" placeholder="Enter Email" name="username" required />
 
           <label for="psw">Password</label>
           <input
             type="password"
             placeholder="Enter Password"
-            name="psw"
+            name="password"
             required
           />
 
@@ -109,7 +109,7 @@
           <input
             type="password"
             placeholder="Repeat Password"
-            name="psw-repeat"
+            name="confirm_password"
             required
           />
 
