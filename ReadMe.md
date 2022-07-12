@@ -17,5 +17,5 @@ A complete e-commerce website with HTML, CSS and JAVASCRIPT ,also using PHP and 
 - Responsive SignUp Page
 
 ### Project Contrinutors ->
-1.) Tanisha Bhadani --- https://github.com/tanisha-bhadani
+1.) Tanisha Bhadani --- https://github.com/tanisha-bhadani  <br>
 2.) Rahul Verma ------- https://github.com/inexorable23
