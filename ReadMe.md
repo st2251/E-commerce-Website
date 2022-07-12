@@ -1,4 +1,4 @@
-![ecommerce webiste](https://raw.githubusercontent.com/ziddahedem/LC09-ecommerce-website/master/images/lc09-ecommerce%20website.jpg)
+
 
 A complete e-commerce website with HTML, CSS and JAVASCRIPT ,also using PHP and MYSQLi during the process to maintain a database...!!!
 
