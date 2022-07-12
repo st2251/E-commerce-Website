@@ -1,5 +1,4 @@
-
-
+## E-commerce Website
 A complete e-commerce website with HTML, CSS and JAVASCRIPT ,also using PHP and MYSQLi during the process to maintain a database...!!!
 
 ### Features of this Ecommerce Website
@@ -16,3 +15,7 @@ A complete e-commerce website with HTML, CSS and JAVASCRIPT ,also using PHP and 
 - Cart Page
 - Responsive Login Page
 - Responsive SignUp Page
+
+### Project Contrinutors ->
+1.) Tanisha Bhadani --- https://github.com/tanisha-bhadani
+2.) Rahul Verma ------- https://github.com/inexorable23
