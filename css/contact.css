@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.bgc{
+    background-color:#f4ecf7;
+}
+.container9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    width: 90vw;
+    padding: 35px;
+}
+
+h2 {
+    color: #403333;
+    font-size: 25px;
+}
+
+.contact-info {
+    display: flex;
+    width: 90%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    color: #403333;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.details {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    color: rgb(41, 37, 37);
+    border-radius: 5px;
+    margin-top: 72px;
+    box-shadow: 0 0 15px rgb(67, 72, 77);
+    margin-left: 15px;
+    height: 300px;
+}
+
+
+
+.details h3 {
+    text-align: center;
+}
+
+.details p {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.details h3+p {
+    font-size: 15px;
+}
+               
+.expert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+}
+
+.expert-wrapper {
+    padding: 0 25px;
+    display: flex;
+}
+.expert img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+input {
+    margin: 5px 15px;
+    height: 25px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+form label {
+    font-size: 15px;
+    margin: 5px 15px;
+    text-align: left;
+}
+
+.customer-check-wrap {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 13px;
+  
+}
+
+textarea {
+    height: 150px;
+    margin: 5px 15px;
+    box-shadow: 0 0 15px grey;
+}
+
+button {
+    margin: 5px 15px;
+    width: 80px;
+    background: #b9348f;
+    padding: 3px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(67, 72, 77);
+    align-self: center;
+}
+
+button:hover {
+    color: rgb(63, 59, 59);
+}
+
+@media screen and (max-width:780px) {
+    .contact-info {
+        flex-direction: column;
+        width: 90%;
+    }
+    form {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .details {
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 0;
+    }
+}

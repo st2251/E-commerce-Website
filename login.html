@@ -18,9 +18,9 @@
       <div class="container d-flex">
         <p>Order Online Or Call Us:(+91) 8081886430,7376550891</p>
         <ul class="d-flex">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -30,52 +30,36 @@
 
         <ul class="nav-list d-flex">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.php" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="product.html" class="nav-link">Shop</a>
           </li>
           <li class="nav-item">
-            <a href="#terms" class="nav-link">Terms</a>
+            <a href="terms.xml" class="nav-link">Terms</a>
           </li>
           <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
+            <a href="about.html" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-          <li class="icons d-flex">
-            <a href="login.html" class="icon">
-              <i class="bx bx-user"></i>
-            </a>
-            <div class="icon">
-              <i class="bx bx-search"></i>
-            </div>
-            <div class="icon">
-              <i class="bx bx-heart"></i>
-              <span class="d-flex">0</span>
-            </div>
-            <a href="cart.html" class="icon">
-              <i class="bx bx-cart"></i>
-              <span class="d-flex">0</span>
-            </a>
+            <a href="contact.html" class="nav-link">Contact</a>
           </li>
         </ul>
 
         <div class="icons d-flex">
           <a href="login.html" class="icon">
-            <i class="bx bx-user"></i>
+              <i class="bx bx-user"></i>
+          </a>
+          <a href="search.html" class="icon">
+              <i class="bx bx-search"></i>
           </a>
           <div class="icon">
-            <i class="bx bx-search"></i>
-          </div>
-          <div class="icon">
-            <i class="bx bx-heart"></i>
-            <span class="d-flex">0</span>
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
           </div>
           <a href="cart.html" class="icon">
-            <i class="bx bx-cart"></i>
-            <span class="d-flex">0</span>
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
           </a>
         </div>
       </div>
@@ -83,7 +67,7 @@
     <!-- Login -->
     <div class="container">
       <div class="login-form">
-        <form action="">
+        <form action="login.php" method="post">
           <h1>Login</h1>
           <p>
             Already have an account? Login in or
@@ -91,21 +75,13 @@
           </p>
 
           <label for="email">Email</label>
-          <input type="text" placeholder="Enter Email" name="email" required />
+          <input type="text" placeholder="Enter Email" name="username" required />
 
           <label for="psw">Password</label>
           <input
             type="password"
             placeholder="Enter Password"
-            name="psw"
-            required
-          />
-
-          <label for="psw-repeat">Repeat Password</label>
-          <input
-            type="password"
-            placeholder="Repeat Password"
-            name="psw-repeat"
+            name="password"
             required
           />
 
@@ -121,11 +97,11 @@
 
           <p>
             By creating an account you agree to our
-            <a href="#">Terms & Privacy</a>.
+            <a href="terms.xml">Terms & Privacy</a>.
           </p>
 
           <div class="buttons">
-            <button type="button" class="cancelbtn">Cancel</button>
+            <button  type="button" class="cancelbtn">Cancel</button>
             <button type="submit" class="signupbtn">Login</button>
           </div>
         </form>
